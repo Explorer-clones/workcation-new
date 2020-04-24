@@ -1,0 +1,9 @@
+gatsby-*.js
+node_modules
+.cache
+*.config.js
+# *.md
+# don't lint nyc coverage output
+coverage
+# ignore examples
+cypress/integration/examples 
