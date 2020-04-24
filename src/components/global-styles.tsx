@@ -17,7 +17,7 @@ const GlobalStyles: React.FC<GlobalStylesProps> = () => (
       }
 
       body {
-        ${tw`font-sans leading-normal text-gray-900 bg-gray-100`}
+        ${tw`font-sans leading-normal`}
       }
     `}
   />

@@ -30,6 +30,16 @@ module.exports = {
     "emotion/import-from-emotion": "error",
     "emotion/styled-import": "error",
     "emotion/syntax-preference": [2, "string"],
+    // Let this rule be aware of my custom components
+    "jsx-a11y/label-has-associated-control": [
+      2,
+      {
+        labelComponents: [],
+        labelAttributes: ["label"],
+        controlComponents: ["Select", "CustomRadioButton", "CustomCheckbox"],
+        depth: 3,
+      },
+    ],
   },
   overrides: [
     {

@@ -21,5 +21,7 @@ module.exports = {
     "functional/no-loop-statement": "warn",
     // Too restrictive for the start
     "functional/no-mixed-type": "off",
+    // Too restrictive for react setup
+    "functional/no-return-void": "off",
   },
 }

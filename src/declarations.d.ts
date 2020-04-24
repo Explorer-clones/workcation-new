@@ -5,3 +5,5 @@ declare module "*.svg" {
   const src: string
   export default src
 }
+
+declare module "mini-svg-data-uri"
